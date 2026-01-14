@@ -1,0 +1,17 @@
+torch>=2.0.0
+torchaudio>=2.0.0
+numpy
+librosa
+soundfile
+transformers
+wandb
+tqdm
+matplotlib
+scipy
+spotdl
+omegaconf
+num2words
+julius
+pesq
+pystoi
+ipython
