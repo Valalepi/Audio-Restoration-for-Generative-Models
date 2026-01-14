@@ -19,11 +19,13 @@ In particolare, il file "modello lightweight u net.ipynb" è il più importante 
 
 Per provare a replicare i miei esperimenti, consiglio di usare la sezione "Cella di ascolto v3: lista di canzoni da testare insieme" dove, aggiustando i path del modello e scrivendo più nomi di canzoni insieme, vengono in automatico messe in output la versione Clean, la degradata e la Restored, le metriche e viene salvato tutto quello che il logger richiede nella cartella results_experiments.
 
+In alternativa, se si vuole solo restaurare una audio direttamente, è già pronta la cella subito dopo in cui va specificato solo il path di input e il path di output (sezione: "Restauro di un audio diretto").
+
 I miei risultati sono visibili al seguente link: https://drive.google.com/drive/folders/1j9hIQpSb-hefFqUPkPYh21PE0eIJqML-?usp=sharing 
 
-Per provare velocemente a restaurare un audio, si possono utilizzare gli altri 2 notebook:
+Per provare velocemente degradare una serie di canzoni, si possono utilizzare gli altri 2 notebook:
 
--music_downloader.ipynb permette di scaricare velocemente brani data una playlist di Spotify
--dataset_preparation.ipynb ti aiuta a creare il dataset, con la struttura Clean e Degraded richiesta (per degradare l'audio esattamente come MusicGen, usare la sezione 4 "Simulazione compressione di MusicGen (Secondo Dataset)")
+-music_downloader.ipynb permette di scaricare velocemente brani data una playlist di Spotify e, come se fosse una "lista della spesa", scaricherà le corrispondenti canzoni da YouTube
+-dataset_preparation.ipynb ti aiuta a creare il dataset, con la struttura Clean e Degraded richiesta (per degradare l'audio esattamente come MusicGen, usare la sezione 4: "Simulazione compressione di MusicGen (Secondo Dataset)")
 
 I dati sono tutti presenti a questo link https://drive.google.com/drive/folders/1Z6h3eqPg1DKFMTR8-22eILPwiBjcuvB5?usp=sharing e sono divisi in data (quelli che ho effettivamente usato per il training, dove musicgen_finetuning è il secondo dataset che ha funzionato) e samples (le canzoni originali delle 2 playlists).
