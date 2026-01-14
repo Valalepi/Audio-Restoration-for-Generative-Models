@@ -29,3 +29,5 @@ Per provare velocemente degradare una serie di canzoni, si possono utilizzare gl
 -dataset_preparation.ipynb ti aiuta a creare il dataset, con la struttura Clean e Degraded richiesta (per degradare l'audio esattamente come MusicGen, usare la sezione 4: "Simulazione compressione di MusicGen (Secondo Dataset)")
 
 I dati sono tutti presenti a questo link https://drive.google.com/drive/folders/1Z6h3eqPg1DKFMTR8-22eILPwiBjcuvB5?usp=sharing e sono divisi in data (quelli che ho effettivamente usato per il training, dove musicgen_finetuning è il secondo dataset che ha funzionato) e samples (le canzoni originali delle 2 playlists).
+
+Nella cartella training graf sono presenti i grafici di confronto di wandb nelle versioni 1.1-1.2 (in cui si vede chiaramente il fenomeno di Warm Restart) e le versioni 2.1-2.2, in cui abbiamo ottenuto il modello funzionante.
