@@ -7,10 +7,15 @@ Le varie versioni del modello si trovano nella cartella models e la versione fun
 Nella cartella src sono presenti:
 
 -il modello stesso model.py
+
 -il data loader data_loader.py
+
 -Il trainer train.py
+
 -le metriche utilizzate e settate metrics.py
+
 -il file di inferenza inference.py
+
 -un logger utile per salvare velocemente le metriche, gli spettrogrammi, commenti personali (opzionali) e le versioni Clean, Degraded e Restored di ogni audio in una cartella.
 
 Nella cartella notebook, ci sono 3 file .ipynb creati su Google Colab con cui ho creato il dataset, l'ho manipolato, sistemato e dove ho scritto il modello e i file presenti in src. Ho lasciato tutte le varie versioni delle varie celle che ho creato divise per sezioni, quindi consiglio sempre di guardare la struttura delle sezioni per essere sicuri di scegliere sempre l'ultima versione (piano piano, ho sempre aggiunto qualche modifica utile).
@@ -26,6 +31,7 @@ I miei risultati sono visibili al seguente link: https://drive.google.com/drive/
 Per provare velocemente degradare una serie di canzoni, si possono utilizzare gli altri 2 notebook:
 
 -music_downloader.ipynb permette di scaricare velocemente brani data una playlist di Spotify e, come se fosse una "lista della spesa", scaricherà le corrispondenti canzoni da YouTube
+
 -dataset_preparation.ipynb ti aiuta a creare il dataset, con la struttura Clean e Degraded richiesta (per degradare l'audio esattamente come MusicGen, usare la sezione 4: "Simulazione compressione di MusicGen (Secondo Dataset)")
 
 I dati sono tutti presenti a questo link https://drive.google.com/drive/folders/1Z6h3eqPg1DKFMTR8-22eILPwiBjcuvB5?usp=sharing e sono divisi in data (quelli che ho effettivamente usato per il training, dove musicgen_finetuning è il secondo dataset che ha funzionato) e samples (le canzoni originali delle 2 playlists).
