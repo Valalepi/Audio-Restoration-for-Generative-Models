@@ -1,17 +1,29 @@
+# --- Deep Learning Core ---
 torch>=2.0.0
 torchaudio>=2.0.0
-numpy
+
+# --- Audio Processing ---
 librosa
 soundfile
-transformers
-wandb
-tqdm
-matplotlib
-scipy
-spotdl
-omegaconf
-num2words
 julius
 pesq
 pystoi
+
+# --- Data & Metrics ---
+numpy
+torchmetrics[audio]
+wandb
+tqdm
+pandas
+matplotlib
+
+# --- Generative Models & Transformers (MusicGen/EnCodec) ---
+transformers
+omegaconf
+num2words
+
+# --- Music Downloading ---
+spotdl
+
+# --- Utilities ---
 ipython
